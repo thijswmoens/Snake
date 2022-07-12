@@ -56,6 +56,7 @@ namespace TM
                     #endregion
                 }
             }
+            txt.filterMode = FilterMode.Point;
 
             txt.Apply();
             Rect rect = new Rect(0,0, maxWidth, maxHeight);
